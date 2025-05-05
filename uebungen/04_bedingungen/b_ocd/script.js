@@ -8,3 +8,25 @@
 *
 * Was ist OCD: https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder
 * */
+
+
+let number = prompt("Gib eine Zahl ein");
+let roundednumber = Math.round(number);
+
+
+checknumber (number, );
+
+
+function checknumber (roundednumber) {
+ 
+    if (number % 2 === 0) {
+    }
+
+    else {
+        console.log("Achtung: Die Zahl ist ungerade.");
+    }
+}
+
+function checknaturalnumber (number) {
+    
+}

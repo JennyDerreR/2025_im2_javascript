@@ -1,13 +1,17 @@
 console.log("hi script.js");
 
 let password = prompt("Passwort eingeben");
+let username = prompt("Benutzername eingeben");
 
 checkpassword (password);
-checksStringLenght (password, 11);
 
 
+checksStringLenght (password, 12);
+checksStringLenght (username, 7);
+
+
+/*Check Password: Dies ist unsere erste Funktion*/
 function checkpassword (password) {
-
 
     if (password.length > 11) {
 
@@ -19,8 +23,9 @@ function checkpassword (password) {
     }
 }
 
+/* Funktion 2 Stringlenght -> definieren*/
 function checksStringLenght (testString, testlenght) {
-    if (testString.length > testlenght) {
+    if (testString.length >= testlenght) {
         console.log ("Der Text ist lang genug");
 
     }

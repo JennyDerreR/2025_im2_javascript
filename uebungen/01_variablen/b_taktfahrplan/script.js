@@ -10,3 +10,11 @@
 * */
 
 const taktfahrplan_done_year = 2070;
+const birthyear = prompt ("In welchem Jahr bist du geboren?");
+
+let agemax = taktfahrplan_done_year - birthyear;
+let agemin = agemax - 1;
+
+    console.log(`Du bist ${agemax} oder ${agemin} Jahre alt, wenn die Deutsche Bahn auf den Taktfahrplan umstellt.`);
+
+
